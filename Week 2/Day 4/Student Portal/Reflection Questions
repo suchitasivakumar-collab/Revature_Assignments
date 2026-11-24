@@ -1,0 +1,10 @@
+1. throw is used inside a method to trigger an exception while throws is used in a 
+methods signature to declare exceptions it might pass. 
+
+2. Because AttendanceShortageException is a checked exception
+
+3. Executes after try and catch run regardless of if an exception was thrown. 
+
+4. Avoids having to throw and catch exceptions when we know null is the only error possible for email
+
+5. No student or student ID error could be thrown. 
